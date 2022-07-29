@@ -29,11 +29,11 @@ html , body{
 
 .nav-logo{
     padding: 0 2px;
-/* color: rgba(255, 0, 0, 0.626) ; */
+color: rgba(255, 0, 0, 0.626) ; 
 }
 
 .nav-links{
-    display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -48,6 +48,7 @@ html , body{
      border-radius: 10px;
      margin:  0 0 0 1em;
 }
+
 .content{
     display: flex;
     flex-direction: row;
@@ -57,7 +58,7 @@ html , body{
     width: 50%;
 }
 
-.left , .right{
+.left  .right{
     padding: 4em;
 }
 
@@ -65,20 +66,25 @@ html , body{
     font-size: 2em;
     color: #444;
 }
+.sub header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
 .header{
     font-size: 2em;
-    padding: 0.5em 0 ;
-    line-height: 1.5em;
+    padding: 0 0 ;
+    line-height: 0;
 }
 
 .header span{
-    color: limegreen;
+    color: #4f0505;
 }
 
 .stats{
-    display: flex;
-    margin: 2em 0;
+    top: 0;
+    left: 0;
 }
 
 .stat{
@@ -94,6 +100,8 @@ html , body{
 }
 
 .stat-copy{
+    color: #444;
+    padding: 2em;
     display: flex;
 }
 
@@ -120,6 +128,11 @@ background: linear-gradient(1.2 rgb(103, 7, 7)
 .card img{
 width: 3%;
 opacity: 0.9;
+}
+
+.card col{
+    align-items: bottom;
+
 }
 
 .card> .row{
@@ -150,8 +163,7 @@ align-content: center;
     opacity: 0.5;
 }
 .card-num , exp-date{
- /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
- opacity: 0.5;
+opacity: 0.5;
  letter-spacing: 6px;
  text-align: left;
 }
@@ -167,6 +179,11 @@ rgba(196, 178, 178, 0.454)
 rgba(222, 184, 135, 0.546)
 rgba(165, 42, 42, 0.573)
 rgba(128, 128, 128, 0.683);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+line-height: 10px;
+}
 
+.card title{
+    font-size: 10px;
 }
 
