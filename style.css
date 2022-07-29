@@ -64,9 +64,10 @@ color: rgba(255, 0, 0, 0.626) ;
 
 .col-header{
     font-size: 2em;
-    color: #444;
+    color: #999;
 }
 .sub header{
+ font-style: oblique;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -125,6 +126,7 @@ background: linear-gradient(1.2 rgb(103, 7, 7)
  padding: 2em;
 }
 
+ 
 .card img{
 width: 3%;
 opacity: 0.9;
@@ -147,7 +149,6 @@ opacity: 0.9;
 align-content: center;
 }
 
-
 .master-logo{
     display: flex;
     justify-content: flex-end;
@@ -169,7 +170,7 @@ opacity: 0.5;
 }
 
 .card-balance{
-position: relative;
+position: bottom;
 top: 1.2em;
 transform : rotate  (16deg);
 border-radius:20px;
